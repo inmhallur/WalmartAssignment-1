@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="deviceType" value="Google Nexus 5"/>
+  <parameter name="password" value="12345a"/>
+  <parameter name="appURL" value="http://mobile.walmart.com"/>
+  <parameter name="browserType" value="mobile"/>
+  <parameter name="username" value="abctest@abctest.com"/>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.walmarttest.tests.End2EndTests">
+        <methods>
+          <include name="initializeSetup"/>
+          <include name="tearDown"/>
+          <include name="TestCase1" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.walmarttest.tests.End2EndTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
