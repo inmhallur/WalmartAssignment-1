@@ -4,7 +4,7 @@
   <parameter name="deviceType" value="Google Nexus 5"/>
   <parameter name="password" value="12345a"/>
   <parameter name="appURL" value="http://mobile.walmart.com"/>
-  <parameter name="browserType" value="mobile"/>
+  <parameter name="browserType" value="chrome"/>
   <parameter name="username" value="abctest@abctest.com"/>
   <test name="Test(failed)" parallel="none">
     <classes>
