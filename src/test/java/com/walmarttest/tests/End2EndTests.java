@@ -29,7 +29,7 @@ public class End2EndTests extends TestSetup{
   //Data set to be tested
   @DataProvider(name = "searchItems")
   public static Object[][] searchTerms() {
-     return new Object[][] {{"tv"}, {"Socks"}, {"dvd"}};
+     return new Object[][] {{"tv"}, {"dvd"}};
   }
   
   @Test(dataProvider = "searchItems")

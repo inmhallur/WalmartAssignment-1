@@ -12,7 +12,7 @@
         <methods>
           <include name="initializeSetup"/>
           <include name="tearDown"/>
-          <include name="TestCase1" invocation-numbers="0 1"/>
+          <include name="TestCase1" invocation-numbers="1"/>
           <include name="setUp"/>
           <include name="TearDown"/>
         </methods>
